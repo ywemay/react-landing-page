@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inline-form-items {
+  @apply flex flex-row gap-3 w-full;
+}
+
+.input-sm {
+  @apply sm:w-full md:w-1/5;
+}
+
+.input-lg {
+  @apply sm:w-full md:w-3/5;
+}

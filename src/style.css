@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+h1 {
+  color: #ffa500; /* orange */
+}
+
+.price {
+  color: #ffa500;
+}
+
+p {
+  color: #fff;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffa500; /* orange */
+  color: #333;
+}
+.btn-secondary {
+  background-color: #333;
+  color: #fff;
+}
+.btn-outlined {
+  border: 1px solid #333;
+}
+
+.main-image {
+  width: 240pt;
+  height: 220pt;
+}
+.actions-block {
+  float: right;
+  width: 50%;
+  height: 220pt;
+}
+.color-selection {
+  margin-bottom: 16pt;
+}
+
+.btn-success {
+  background-color: #ffa500; /* orange */
+  color: #fff;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ffa500; /* orange */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.technical-parameters {
+  border-collapse: collapse;
+  margin-top: 12pt;
+  margin-right: 12pt;
+  width: 100%;
+}
+
+.technical-parameters th, .technical-parameters td {
+  text-align: left;
+  padding: 10px;
+}
+
+.technical-parameters tr:nth-child(odd) {
+  background-color: #333;
+}
